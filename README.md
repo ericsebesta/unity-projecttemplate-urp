@@ -1,4 +1,4 @@
-# unitytemplate-urp
+# ericsebesta/unity-unitytemplate-urp
 An empty Unity Universal Render Pipeline-based project based off of Unity 2019.4.1f1
 
 Users should be able to use this as a template repo, clone it, open and build (windows at least) successfully and w/o making any changes that would be submitted back into git. It also includes an initialized industry-standard testing folder and file structure. Test away!
