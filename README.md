@@ -1,5 +1,5 @@
 # ericsebesta/unity-unitytemplate-urp
-A application framwork for Unity Universal Render Pipeline-based projects, based off of Unity 2019.4.1f1
+A application framework for Unity Universal Render Pipeline-based projects, based off of Unity 2019.4.1f1
 
 Users should be able to use this as a template repo, clone it, open and build (windows at least) successfully and w/o making any changes that would be submitted back into git. It also includes an initialized industry-standard testing folder and file structure. Test away!
 
