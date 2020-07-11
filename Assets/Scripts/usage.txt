@@ -1,1 +1,5 @@
-Usage: Store scripts here.
+Precreated with a Runtime and Editor folder, and assembly definitions to support the following:
+
+Runtime folder should hold all application script logic, and will be included in all builds.
+Editor folder should hold all editor-specific scripts, and will only be available in the editor.
+The Tests folder also includes sample test code and assembly definitions that links back to these scripts.

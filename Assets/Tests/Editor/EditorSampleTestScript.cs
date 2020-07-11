@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using NUnit.Framework;
+using UnityEngine;
 using UnityEngine.TestTools;
 
 namespace Tests.Editor
@@ -21,6 +22,24 @@ namespace Tests.Editor
         {
             // Use the Assert class to test conditions.
             // Use yield to skip a frame.
+            yield return null;
+        }
+            
+        // This test will only build and run if we correctly have assembly references set up correctly to our runtime scripts 
+        [UnityTest]
+        public IEnumerator RuntimeCreateSampleBehaviour()
+        {
+            var go = new GameObject();
+            go.AddComponent<NewBehaviourScript>();
+            yield return null;
+        }
+        
+        // This test will only build and run if we correctly have assembly references set up correctly to our editor scripts 
+        [UnityTest]
+        public IEnumerator EditorCreateSampleBehaviour()
+        {
+            var go = new GameObject();
+            go.AddComponent<NewEditorBehaviourScript>();
             yield return null;
         }
     }
