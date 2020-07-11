@@ -7,7 +7,7 @@ Features:
 - Derived from the default "Universal Render Pipeline" Unity starting project template.
 - All assets removed except for the default skybox.
 - Uses "main" as default branch.
-- Up-to-date .gitignore.
+- Up-to-date .gitignore and .gitattributes.
 - Not-critical packages removed.
 - Core packages updated (timeline, rider, etc.).
   - Note this does mean that this template uses non-verified packages.
@@ -18,6 +18,5 @@ Features:
 - Reasonable default player settings (windowed, no splash screen, etc).
 
 Possible TODO:
-- .gitattributes file
 - prep setup for open source unity/C# code linters or other tooling
 - prep setup for Cloud Build
