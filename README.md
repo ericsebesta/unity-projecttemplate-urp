@@ -13,12 +13,11 @@ Features:
   - Note this does mean that this template uses non-verified packages.
 - All standard directories initialized (using a placeholder file).
 - Trival sample scene with very basic industry standard gameobject organization (cameras holder object, lights holder object, etc).
-- Unit testing frameworks setup with sample trivial tests.
+- Unit testing frameworks setup with sample trivial tests, included assembly definitions to support testing.
 - 0 Rider inspection errors/warnings/suggestions/etc.
 - Reasonable default player settings (windowed, no splash screen, etc).
 
 Possible TODO:
-- add runtime and editor assemblies so tests work out of the box
 - .gitattributes file
 - prep setup for open source unity/C# code linters or other tooling
 - prep setup for Cloud Build
