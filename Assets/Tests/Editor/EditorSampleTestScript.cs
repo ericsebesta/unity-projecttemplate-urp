@@ -36,10 +36,9 @@ namespace Tests.Editor
         
         // This test will only build and run if we correctly have assembly references set up correctly to our editor scripts 
         [UnityTest]
-        public IEnumerator EditorCreateSampleBehaviour()
+        public IEnumerator EditorTestEditorTestScript()
         {
-            var go = new GameObject();
-            go.AddComponent<NewEditorBehaviourScript>();
+            NewEditorBehaviourScript.TestCall();
             yield return null;
         }
     }

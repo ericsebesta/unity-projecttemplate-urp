@@ -30,7 +30,9 @@ namespace Tests.Runtime
         public IEnumerator RuntimeCreateSampleBehaviour()
         {
             var go = new GameObject();
-            go.AddComponent<NewBehaviourScript>();
+            var c = go.AddComponent<NewBehaviourScript>();
+            //call this to ensure we can validate test coverage is working
+            c.TestCall();
             yield return null;
         }
     }

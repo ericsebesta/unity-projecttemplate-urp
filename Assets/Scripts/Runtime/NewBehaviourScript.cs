@@ -4,4 +4,8 @@
 //The sample tests reference this script to ensure that assembly definition linkages are setup correctly.
 public class NewBehaviourScript : MonoBehaviour
 {
+    public int TestCall()
+    {
+        return UnityEngine.Random.Range(5, 50);
+    }
 }
