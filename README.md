@@ -14,3 +14,6 @@ Features:
 - Unit testing frameworks setup with sample trivial tests, included assembly definitions to support testing.
 - 0 Rider inspection errors/warnings/suggestions/etc.
 - Reasonable default player settings (windowed, no splash screen, etc).
+- Supports code coverage using the new Code Coverage package
+  - 100% coverage of sample runtime and editor code as an example
+  - Note: this version of code coverage will inject absolute paths into its package settings on open, so you'll see a file change
