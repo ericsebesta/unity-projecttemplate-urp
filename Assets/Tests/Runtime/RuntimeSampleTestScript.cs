@@ -12,6 +12,7 @@ namespace Tests.Runtime
         public void RuntimeSampleTestScriptSimplePasses()
         {
             Assert.Less(1, 2);
+            LogAssert.NoUnexpectedReceived();
             // Use the Assert class to test conditions
         }
         
@@ -33,6 +34,7 @@ namespace Tests.Runtime
             var c = go.AddComponent<NewBehaviourScript>();
             //call this to ensure we can validate test coverage is working
             c.TestCall();
+            LogAssert.NoUnexpectedReceived();
             yield return null;
         }
     }

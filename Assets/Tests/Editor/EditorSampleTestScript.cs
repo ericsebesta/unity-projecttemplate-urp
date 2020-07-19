@@ -12,6 +12,7 @@ namespace Tests.Editor
         public void EditorSampleTestScriptSimplePasses()
         {
             Assert.Less(1, 2);
+            LogAssert.NoUnexpectedReceived();
             // Use the Assert class to test conditions
         }
 
@@ -31,6 +32,7 @@ namespace Tests.Editor
         {
             var go = new GameObject();
             go.AddComponent<NewBehaviourScript>();
+            LogAssert.NoUnexpectedReceived();
             yield return null;
         }
         
@@ -39,6 +41,7 @@ namespace Tests.Editor
         public IEnumerator EditorTestEditorTestScript()
         {
             NewEditorBehaviourScript.TestCall();
+            LogAssert.NoUnexpectedReceived();
             yield return null;
         }
     }
